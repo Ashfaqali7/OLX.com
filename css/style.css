@@ -1,0 +1,497 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+#nav .contaner{
+     /* width: 100%; */
+     background-color: rgba(200, 200, 200, 1);
+     height: 150px;
+     /* overflow: scroll; */
+     /* display: inline-block; */
+     position: sticky;
+     /* overflow: hidden; */
+}
+#nav .contaner .firstcon{
+     width: 90%; 
+     /* display: flex; */
+     display: flex;
+     height: 12px;
+     
+     
+}
+#nav .contaner .firstcon .img{
+    
+    width: 60px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+}
+#nav .contaner .firstcon .lists .ul1st{
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     padding: 8px 20px; 
+     margin: 0px 10px;
+}
+#nav .contaner .firstcon .lists .ul1st li{
+     
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 30px;
+     
+
+     
+}
+#nav .contaner .firstcon .lists .ul1st li a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+#nav .contaner .secondnav {
+
+    
+    width: 90%;
+
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+#nav .contaner .secondnav .searchbar{
+    margin: 50px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #002f34;
+    height: 48px;
+    max-height: 100%;
+    width: 300px;
+}
+#nav .contaner .secondnav .searchbar .searchicon{
+ margin-left: 0.8rem;
+    width: 50px;
+
+}
+#nav .contaner .secondnav .searchbar .searchicon i{
+ 
+    font-size: 30px;
+    margin: 10px auto;
+
+}
+#nav .contaner .secondnav .searchbar .arrowdown{
+ 
+    margin-right: 0.8rem;
+    width: 50px;
+
+}
+#nav .contaner .secondnav .searchbar .arrowdown i{
+ 
+    font-size: 30px;
+    margin: 10px auto;
+
+
+}
+
+#nav .contaner .secondnav .searchbar .input .input1{
+    border-style: none;
+    /* background-color: #fff; */
+    /* border-radius: 4px; */
+    /* border: 1px solid #002f34; */
+    height: 48px;
+    max-height: 100%;
+    width: 200px;
+}
+#nav .contaner .secondnav .searchbar .input input::placeholder{
+    font-size: 1.5em;
+    /* padding: 10px; */
+    padding-left: 14px;
+}
+#nav .contaner .secondnav .searchbar{
+    display: flex;
+}
+#nav .contaner .secondnav .findcars{
+    /* margin: 50px 20px;
+    
+    border-radius: 4px;
+    border: 1px solid #002f34;*/
+    
+    height: 48px;
+    max-height: 100%;
+    width: 100%; 
+    display: flex;
+    /* border: 1px solid black; */
+    margin: 50px 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #002f34;
+    /* height: 48px; */
+    /* justify-content: space-between; */
+}
+#nav .contaner .secondnav .findcars .findcar{
+    /* background-color: #fff; */
+    width: 100%;
+    display: block;
+    height: 47px;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+#nav .contaner .secondnav .findcars .findcar input{
+    border-style: none;
+    /* margin: 50px 20px; */
+    background-color: transparent;
+    border-radius: 4px;
+    
+    height: 48px;
+    max-height: 100%;
+    width: 320px;
+}
+#nav .contaner .secondnav .findcars .icone{
+    
+    background-color: black;
+    color: white;
+    /* border: 1px solid black; */
+    
+    width: 100px;
+    height: 48px;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+#nav .contaner .secondnav .findcars .icone i{
+
+    font-size: 1.5em;
+    padding: 14px 23px;
+
+}
+#nav .contaner .secondnav .findcars .findcar input::placeholder{
+
+    
+    font-size: 1.5em;
+    padding-left: 5px;
+}
+#nav .contaner .secondnav .findcars .seachicone{
+    margin-right: 0.8rem;
+    width: 50px;
+    font-size: 2rem;
+
+}
+#nav .contaner .secondnav .notifications{
+    display: flex;
+    justify-content: space-evenly;
+     margin: 48px auto;
+    padding: 10px 20px; 
+    width: 33%;
+}
+#nav .contaner .secondnav .notifications .login{
+    width: 100%;
+    /* height: 50px;
+     margin: 20px 10px;  */
+     
+}
+#nav .contaner .secondnav .notifications .login a{
+     font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+#nav .contaner .secondnav .notifications .login a:hover{
+    text-decoration: none;
+}
+
+
+#nav .contaner .secondnav .notifications .sell{
+     /* margin: 5px auto; */
+    /*padding: 10px 20px; */
+    font-size: 1.5em;
+    position: relative;
+    width: 100%;
+    
+}
+#nav .contaner .secondnav .notifications .sell .img{
+    margin: 28px auto;
+    padding: 10px 20px;
+    font-size: 2em;
+    position: absolute;
+    right: -56px;
+    top: -48px;
+    
+
+    
+}
+#nav .contaner .secondnav .notifications .sell .plus{
+    
+    
+    border: 3px solid rgb(250, 245, 245);
+    border-radius: 15px;
+    align-items: center;
+    background-size: 6px;
+    background-color: white;
+    
+}
+#list {
+    width: 100%;
+}
+#list .contaner{
+    overflow: hidden;
+    /* padding: 1.2rem; */
+    width: 100%;
+    height: 3rem;
+    display: block;
+   
+   
+    /* overflow: hidden; */
+}
+#list .contaner .categories{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    list-style: none;
+}
+#list .contaner .categories li a{
+    color: black;
+    text-decoration: none;
+    
+    
+
+}
+#list .contaner .categories li{
+    margin: 10px auto;
+}
+#cards{
+    width: 100%;
+    /* margin: 1px 0px; */
+   /* margin: 10px 20px; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+
+}
+#cards .card .heart{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 15px ;
+    /* width: 50px; */
+    height: 20px;
+    /* margin: 50px 10px; */
+}
+#t1{
+    width: 95%;
+    height: 50px;
+    margin: 10px 15px;
+}
+#t1 .span1{
+
+    display: block;
+    /* margin: 10px 15px ; */
+    
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px;
+}
+/* #cards
+{
+width: 100%;
+
+} */
+#cards .card{
+    width: 25%;
+    height: 200px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 15px;
+}
+#cards .card .img{
+    width: 100%;
+    height: 100px ;
+    text-align: center;
+   
+}
+#cards .card .text{
+    width: 300px;
+    height: 80px ;
+   /* align-items: flex-end; */
+   display: flex;
+   flex-direction: column;
+}
+#cards .card .text .pandd{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+    margin: 0px 10px;
+    
+
+}
+#cards .card .text .pandd h6{
+    width: 200px;
+    max-width: 300px;
+    margin: 3px 5px;
+
+}
+#cards .card .text .pandd h2{
+    width: 200px;
+    max-width: 300px;
+    margin: 0px 5px;
+
+}
+#cards .card .text .landd{
+    display: flex;
+    width: 290px;
+    margin: 0px 10px;
+    justify-content: space-around;
+  
+}
+.learn{
+    width: 100%;
+    height: 2.5rem;
+    margin: 30px auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+.learn .learnbutton {
+    width: 12%;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    background-color:transparent;
+    font-weight: lighter;
+    color: black;
+    
+
+}
+.learn .learnbutton:hover{ 
+    border: 3px solid black;
+}
+
+#contaner{
+
+    width: 100%;
+    height: 12rem;
+}
+#contaner .main{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 5px 20px; */
+    background-color: rgb(247, 248, 249);
+
+}
+#contaner .main .img{
+    width: 33%;
+    height: 12rem;
+}
+#contaner .main .img .images{
+    width: 100%;
+    height: 12rem;
+}
+#contaner .main .text{
+    width: 33%;
+    height: 11rem;
+    padding: 20px 15px;
+    /* text-align: center; */
+    margin: 20px 40px;
+
+}
+#contaner .main .text .para{
+    
+    /* text-align: start; */
+    margin:5px 10px;
+    font-size: 1.4em;
+
+
+}
+#contaner .main .logos{
+    width: 33%;
+    height: 100%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* margin: 70px 40px; */
+    padding: 70px 15px;
+    /* border-left: 1px  solid black;
+    border-left-width: 5px;
+    border-left-style: groove;
+    */
+}
+#contaner .main .logos .logoes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#contaner .main .logos .logoes .applestore{
+    padding: 10px 0px;
+   text-align: center;
+}
+#foot{
+    width: 100%;
+    
+}
+#bigfooter{
+    background-color: rgb(235, 238, 239);
+    border-top: 1px solid black;
+    /* margin: 20px 0px; */
+    padding: 20px 0px;
+    width: 100%;
+}
+#bigfooter .boxes{
+    width: 100%;
+    display: flex;
+}
+#bigfooter .boxes .box{
+    width: 25%;
+    padding: 10px 20px;
+}
+#bigfooter .boxes .box a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+#bigfooter .boxes .box a :hover{
+    
+    color: rgb(0, 0, 0);
+}
+#bigfooter .boxes .box .list li{
+    
+    list-style: none;
+    padding: 5px 0px;
+    font-size: 0.9em;
+}
+#bigfooter .boxes .box .list{
+    margin: 5px 0px;
+}
+#bigfooter .boxes .box .images{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+#bigfooter .boxes .box .images .apple{
+    padding: 3px 0px;
+}
+#smallfoot{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(0, 47, 52);
+    
+} 
+#smallfoot .last{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px;
+    padding-right: 20px;
+   
+}
+#smallfoot .last .copyright{
+    font-size: 0.8em;
+}
+
+body{
+    
+}
